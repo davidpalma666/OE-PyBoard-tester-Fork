@@ -1,0 +1,186 @@
+
+
+https://docs.micropython.org/en/latest/pyboard/quickref.html#uart-serial-bus
+https://docs.micropython.org/en/latest/pyboard/quickref.html
+https://docs.micropython.org/en/latest/library/index.html#port-specific-libraries
+
+
+
+Quick reference for the pyboard
+https://docs.micropython.org/en/latest/pyboard/quickref.html
+
+
+
+
+
+
+**************************************************************************************************	
+IF FILES GET CORRUPTED:
+
+Plug pyboard to computer to have supply
+Click and maintain USR
+Click and release RST
+Release USR when both LED orange+green are on
+Wait until red LED turns OFF
+Click and release the RST
+
+
+
+
+
+
+
+
+*************************************************
+*	@17 Dezembro 2025	
+
+>> q LDO
+	OEPS080016
+		LP5907-3.3V
+		:0.57€
+		:50 un OEPS
+	
+	OEPS080153
+		MCP1700-332
+		0.51€
+		:1 un OEPS
+
+	» indiferente; usa-se o q tem maior und-stck
+		= OEPS080016	LP5907-3.3V
+		=	LDO 3.3V 250mA	SOT-23-5	SMD	LP5907MFX-3.3/NOPB
+	
+	
+		
+
+>> q UCB C
+	OEPS070105		USB2.0 TYPE C 
+		MPN	USB4105-GF-A	
+		Digikey	2073-USB4105-GF-ADKR-ND		
+		0.78€
+		:1 un OEPS
+		
+	OEPS070128		USB2.0 TYPE C 
+		MPN 12401610E4#2A	
+		Mouser	523-12401610E4#2A		
+		1.02€
+		:10 un OEPS
+	
+		
+		»» a q tém apenas 1 row de pinos - mais fácil & maior garante ao soldar
+			= OEPS070105	USB4105-GF-A
+
+
+>> posição pinos circular/TH GND nos pinos de test?
+	- alinhado/não-alinhado com os restantes pads de teste?
+		» alinhado sim - o DRC é irrelevante		
+	
+	
+>> existir furos mecânicos para 'pés' ??	
+		» NÃO !!!!
+	
+	
+>>>	SHUNT GNDs!!!!!!!!!!!!!!!!!!!		EM FALTA
+		- entre (este) controlador Teste	&	o módulo-em-teste externo
+
+>> posição LEDs
+		» LEDs da análise do CCs ok - ao lado de cada andar?
+			OK
+		
+>> 
+
+
+*************************************************
+*	@19 Novembro 2025	
+
+> para realizar os testes com OEPS
+	. colocar a OE PyBoard no Board-Tester
+	. programar com o Algoritmo de testes ""main TESTER" 	NOME AINDA NÃO DEFINIDO
+	. ver se apenas acende LEDs verdes durante o ciclo de teste
+	. ver dataLog		AINDA NÃO GARANTIDO
+	
+	. Algoritmo de testes:
+		- colocados todos os pins como Inputs
+		- faz ciclos de:
+			. passar cada um dos IOs a output & rail high
+			. ver se há outro Input a high
+			. se houver então há cc	origem a erro
+			
+	. POR CAUSA DO ALGORITMO DE TESTES FORAM RETIRADAS AS Rs DOS RAILS I2C
+		> RAIL I2C NÃO UTILIZADO na board pyPhotometry, logo não necessário
+		
+	>> componentes retirados:
+		- rail I2C Y9	Y10	=>	R12 R13
+		- rail I2C X9 X10	=>	R10 R11
+	
+	>> passar estes componentes a DNP
+		
+
+
+
+
+
+*************************************************
+*	@3 Novembro 2025	
+
+
+
+IOs interface de pyBoard para pyPhotometry:
+		Y1=PC6				|	V+
+		Y2=PC7				|	3V3
+		Y3=PB8				|	GND
+		Y4=PB9				|	RST=SW
+		Y5=PB12				|	Y12=PB1
+		Y6=PB13				|	Y11=PB0
+		Y7=PB14				|	Y10=PB11
+		Y8=PB15				|	Y9=PB10
+		X9=PB6				|	X8=PA7
+		X10=PB7				|	X7=PA6
+		X11=PC4				|	X6=PA5
+		X12=PC5				|	X5=PA4
+		SW=RST				|	X4=PA3
+		GND					|	X3=PA2
+		3V3						|	X2=PA1
+		V+						|	X1=PA0
+		
+
+
+
+
+
+>> side-by-side pinout
+
+		Y1=PC6		>>	Y2	Y8
+		Y2=PC7		>>	Y1	
+		Y3=PB8		>>	Y4	BOOT0
+		Y4=PB9		>>	Y3	GND
+		Y5=PB12		>>	Y6	
+		Y6=PB13		>>	Y6	Y7	
+		Y7=PB14		>>	Y6	Y8	
+		Y8=PB15		>>	Y1	Y7	
+		X9=PB6		>>	X10	
+		X10=PB7		>>	X9
+		X11=PC4		>>	X12	
+		X12=PC5		>>	X11	Y11
+		SW=RST				n.a.
+		GND					
+		3V3						
+		V+						
+		
+		|	V+
+		|	3V3
+		|	GND
+		|	RST=SW				n.a.
+		|	Y12=PB1		>>	Y11
+		|	Y11=PB0		>>	X12	Y12
+		|	Y10=PB11	>>	Y9
+		|	Y9=PB10		>>	Y10
+		|	X8=PA7		>>	X7	X11	
+		|	X7=PA6		>>	X6	X8
+		|	X6=PA5		>>	X5	X7
+		|	X5=PA4		>>	X6	3V3
+		|	X4=PA3		>>	GND
+		|	X3=PA2		>>	X2
+		|	X2=PA1		>>	X1	X3
+		|	X1=PA0		>>	X2	VDDA
+		
+		
