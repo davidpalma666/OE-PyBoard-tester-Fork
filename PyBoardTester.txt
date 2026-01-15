@@ -28,7 +28,15 @@ Click and release the RST
 
 
 
-
+*************************************************
+*	@15 Janeiro 2026
+- adicionados LEDs PASS & FAIL para sinalizar fim teste
+- modificadasa Designators de LEDs para estar tudo coerente na BOM
+- unidos pares de IOs do pyBoard q faltavam
+- reimensionado div resistivo para ADC-In
+	Vin max = 6V
+	Vadc max = 2.010
+		R1=10k => R2 =5k = 5k1
 
 
 *************************************************

@@ -4640,10 +4640,6 @@
 		(uuid "2d98bd9e-10f0-4b64-9a9b-3eb68c391181")
 	)
 	(no_connect
-		(at 260.35 118.11)
-		(uuid "41820f4e-25c8-448f-9c4d-93ae8de9177d")
-	)
-	(no_connect
 		(at 187.96 87.63)
 		(uuid "41fd8fc0-3ff0-460d-8bc3-041641a4daf1")
 	)
@@ -4670,10 +4666,6 @@
 	(no_connect
 		(at 100.33 147.32)
 		(uuid "690ea9f1-a38e-476d-954f-ec3d0e91a201")
-	)
-	(no_connect
-		(at 260.35 115.57)
-		(uuid "6d89c547-572b-4f68-be5c-671611771168")
 	)
 	(no_connect
 		(at 274.32 152.4)
@@ -4723,6 +4715,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 187.96) (xy 323.85 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007ef61a-2a67-40bf-86b3-282f1bf57506")
+	)
+	(wire
+		(pts
 			(xy 69.85 218.44) (xy 69.85 215.9)
 		)
 		(stroke
@@ -4750,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "067fa797-fa3b-4fba-9fc7-5542b343370b")
+	)
+	(wire
+		(pts
+			(xy 323.85 198.12) (xy 323.85 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071bca34-7ddf-4e3d-9c8e-496e745d3f08")
 	)
 	(wire
 		(pts
@@ -5963,6 +5975,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 198.12) (xy 313.69 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9688c5b-9c79-4a32-bdd5-9190bdfa82b7")
+	)
+	(wire
+		(pts
 			(xy 289.56 80.01) (xy 254 80.01)
 		)
 		(stroke
@@ -6090,6 +6112,16 @@
 			(type default)
 		)
 		(uuid "b6228978-2124-41b9-86e8-d202fbb82867")
+	)
+	(wire
+		(pts
+			(xy 313.69 212.09) (xy 313.69 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69bd3e3-6cbb-4e8e-a90b-ef5cfbaffd6f")
 	)
 	(wire
 		(pts
@@ -6230,6 +6262,16 @@
 			(type default)
 		)
 		(uuid "c5a3fe45-7111-4465-b795-9c147bef0d89")
+	)
+	(wire
+		(pts
+			(xy 323.85 212.09) (xy 323.85 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66d9482-5a69-4d2d-b9d3-6f38a0b5cded")
 	)
 	(wire
 		(pts
@@ -6450,6 +6492,16 @@
 			(type solid)
 		)
 		(uuid "e64173cd-97ff-49e6-b4c1-99506bd9c71d")
+	)
+	(wire
+		(pts
+			(xy 313.69 184.15) (xy 313.69 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87f4a3b-b2c5-4fd4-82ee-8826f32c2008")
 	)
 	(wire
 		(pts
@@ -6885,6 +6937,16 @@
 		)
 		(uuid "5e3ade78-c08b-4ec1-a4d0-ddf4a445591d")
 	)
+	(label "OK_LED"
+		(at 260.35 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f6a60ac-7f3a-4c36-81c0-a9ceda2fc989")
+	)
 	(label "SUPPLY_LED"
 		(at 287.02 182.88 0)
 		(effects
@@ -7014,6 +7076,16 @@
 			(justify left bottom)
 		)
 		(uuid "aa172f90-4e41-4453-af76-db9a9931428b")
+	)
+	(label "NOK_LED"
+		(at 323.85 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abaa9a10-c7af-450f-b2d1-49c7dfd933bb")
 	)
 	(label "PDI_CLOCK"
 		(at 186.69 123.19 180)
@@ -7145,6 +7217,26 @@
 		)
 		(uuid "f85b0deb-da55-4078-b817-4ab8bf6b8f90")
 	)
+	(label "NOK_LED"
+		(at 260.35 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fabad5f8-9905-4fa6-b3a2-89f2ddcc08f7")
+	)
+	(label "OK_LED"
+		(at 313.69 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc2940b6-fb57-4ce1-803e-3619a8260167")
+	)
 	(rule_area
 		(polyline
 			(pts
@@ -7179,7 +7271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 298.831 194.2521 0)
 			(effects
 				(font
@@ -7215,7 +7307,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 305.943 196.088 0)
 			(effects
 				(font
@@ -7244,7 +7336,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 297.18 193.04 0)
 			(effects
 				(font
@@ -7296,7 +7388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.5048 107.95 0)
 			(effects
 				(font
@@ -7314,7 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 77.47 104.14 0)
 			(effects
 				(font
@@ -7323,7 +7415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 77.47 104.14 0)
 			(effects
 				(font
@@ -7332,7 +7424,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 77.47 104.14 0)
 			(effects
 				(font
@@ -7468,7 +7560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 63.5 213.36 0)
 			(effects
 				(font
@@ -8009,13 +8101,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B-PWR"
+		(property "Value" "Green LED"
 			(at 221.234 205.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -8036,7 +8129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 222.25 199.39 0)
 			(effects
 				(font
@@ -8045,7 +8138,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 222.25 199.39 0)
 			(effects
 				(font
@@ -8054,7 +8147,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 222.25 199.39 0)
 			(effects
 				(font
@@ -8281,7 +8374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 104.14 215.9 0)
 			(effects
 				(font
@@ -8710,13 +8803,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D-PWR"
+		(property "Value" "Green LED"
 			(at 285.242 208.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -8737,7 +8831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 287.02 201.93 0)
 			(effects
 				(font
@@ -8746,7 +8840,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 287.02 201.93 0)
 			(effects
 				(font
@@ -8755,7 +8849,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 287.02 201.93 0)
 			(effects
 				(font
@@ -8912,7 +9006,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 278.511 194.2521 0)
 			(effects
 				(font
@@ -8948,7 +9042,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 285.623 196.088 0)
 			(effects
 				(font
@@ -8977,7 +9071,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 276.86 193.04 0)
 			(effects
 				(font
@@ -9193,7 +9287,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 288.671 194.2521 0)
 			(effects
 				(font
@@ -9229,7 +9323,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 295.783 196.088 0)
 			(effects
 				(font
@@ -9258,7 +9352,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 287.02 193.04 0)
 			(effects
 				(font
@@ -9453,13 +9547,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A-PWR"
+		(property "Value" "Green LED"
 			(at 212.09 205.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -9480,7 +9575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 213.36 199.39 0)
 			(effects
 				(font
@@ -9489,7 +9584,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 213.36 199.39 0)
 			(effects
 				(font
@@ -9498,7 +9593,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 213.36 199.39 0)
 			(effects
 				(font
@@ -9816,7 +9911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.7548 147.32 0)
 			(effects
 				(font
@@ -9834,7 +9929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 172.72 143.51 0)
 			(effects
 				(font
@@ -9843,7 +9938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 177.419 137.922 0)
 			(effects
 				(font
@@ -9872,7 +9967,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 172.72 143.51 0)
 			(effects
 				(font
@@ -9914,13 +10009,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D-PWR"
+		(property "Value" "Green LED"
 			(at 263.652 208.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -9941,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 265.43 201.93 0)
 			(effects
 				(font
@@ -9950,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 265.43 201.93 0)
 			(effects
 				(font
@@ -9959,7 +10055,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 265.43 201.93 0)
 			(effects
 				(font
@@ -10012,7 +10108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.1248 55.245 0)
 			(effects
 				(font
@@ -10030,7 +10126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 212.09 51.435 0)
 			(effects
 				(font
@@ -10039,7 +10135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 216.789 45.847 0)
 			(effects
 				(font
@@ -10068,7 +10164,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 212.09 51.435 0)
 			(effects
 				(font
@@ -10120,7 +10216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.4748 101.6 0)
 			(effects
 				(font
@@ -10138,7 +10234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -10147,7 +10243,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -10156,7 +10252,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -10331,7 +10427,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 232.791 191.7121 0)
 			(effects
 				(font
@@ -10367,7 +10463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 239.903 193.548 0)
 			(effects
 				(font
@@ -10396,7 +10492,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 231.14 190.5 0)
 			(effects
 				(font
@@ -10438,13 +10534,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STATE-LED"
+		(property "Value" "Green LED"
 			(at 189.23 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -10465,7 +10562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 190.5 199.39 0)
 			(effects
 				(font
@@ -10474,7 +10571,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 190.5 199.39 0)
 			(effects
 				(font
@@ -10483,7 +10580,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 190.5 199.39 0)
 			(effects
 				(font
@@ -10929,7 +11026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 257.5052 55.88 0)
 			(effects
 				(font
@@ -10947,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -10956,7 +11053,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 251.841 46.482 0)
 			(effects
 				(font
@@ -10985,7 +11082,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -11421,7 +11518,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 192.151 191.7121 0)
 			(effects
 				(font
@@ -11457,7 +11554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 199.263 193.548 0)
 			(effects
 				(font
@@ -11486,7 +11583,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 190.5 190.5 0)
 			(effects
 				(font
@@ -11648,7 +11745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
 			(at 27.94 86.36 0)
 			(effects
 				(font
@@ -11737,7 +11834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
+		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
 			(at 62.23 115.57 0)
 			(effects
 				(font
@@ -11746,7 +11843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "CPF0402B10KE1"
 			(at 53.467 112.522 0)
 			(effects
 				(font
@@ -11775,7 +11872,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020030"
+		(property "OEPSPN" "OEPS020043"
 			(at 62.23 115.57 0)
 			(effects
 				(font
@@ -12099,7 +12196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 215.011 191.7121 0)
 			(effects
 				(font
@@ -12135,7 +12232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 222.123 193.548 0)
 			(effects
 				(font
@@ -12164,7 +12261,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 213.36 190.5 0)
 			(effects
 				(font
@@ -12183,6 +12280,202 @@
 			(project "PyBoardTester"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 313.69 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a189da44-b4dd-4a25-a0c8-6cf60e30c750")
+		(property "Reference" "R35"
+			(at 315.341 193.0978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330R"
+			(at 315.341 195.5221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 312.674 194.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0402330RFKEDHP"
+			(at 322.453 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" "Yes"
+			(at 322.453 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020191"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b138232-0962-4772-972e-e7a146557f06")
+		)
+		(pin "2"
+			(uuid "208eb41b-cdea-4973-aa6b-a3662cefd53c")
+		)
+		(instances
+			(project "PyBoardTester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 323.85 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1f2771f-b1fd-4ccb-9055-b585ad017203")
+		(property "Reference" "D11"
+			(at 326.771 203.5753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 322.072 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 323.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED 0603 Red 633nm 20mA"
+			(at 323.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5990010007F"
+			(at 323.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS030044"
+			(at 323.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f23b3482-a8be-4c17-8490-90f1e38aa992")
+		)
+		(pin "2"
+			(uuid "563fcb72-9312-4dba-bcc4-6fb2a02a83af")
+		)
+		(instances
+			(project "PyBoardTester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12400,6 +12693,71 @@
 			(project "PyBoardTester"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 313.69 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2d4639-5066-4ae0-bc36-62d13a6a127d")
+		(property "Reference" "#PWR070"
+			(at 313.69 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.817 216.4842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 313.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45f2b25e-8e88-43cc-919f-a29e5c5c9e6f")
+		)
+		(instances
+			(project "PyBoardTester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -12628,7 +12986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.6448 109.22 0)
 			(effects
 				(font
@@ -12646,7 +13004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -12655,7 +13013,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -12664,7 +13022,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -12937,7 +13295,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 74.168 41.148 90)
 			(effects
 				(font
@@ -13164,7 +13522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.6048 55.88 0)
 			(effects
 				(font
@@ -13182,7 +13540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 242.57 52.07 0)
 			(effects
 				(font
@@ -13191,7 +13549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 247.269 46.482 0)
 			(effects
 				(font
@@ -13220,7 +13578,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 242.57 52.07 0)
 			(effects
 				(font
@@ -13554,7 +13912,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 73.66 48.006 90)
 			(effects
 				(font
@@ -13640,13 +13998,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D-PWR"
+		(property "Value" "Green LED"
 			(at 238.252 205.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -13667,7 +14026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 240.03 199.39 0)
 			(effects
 				(font
@@ -13676,7 +14035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 240.03 199.39 0)
 			(effects
 				(font
@@ -13685,7 +14044,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 240.03 199.39 0)
 			(effects
 				(font
@@ -13737,7 +14096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 249.2248 55.88 0)
 			(effects
 				(font
@@ -13755,7 +14114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -13764,7 +14123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 254.889 46.482 0)
 			(effects
 				(font
@@ -13793,7 +14152,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -13812,6 +14171,94 @@
 			(project "PyBoardTester"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 313.69 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0e43dcc-0ce4-4bd8-9c8d-832d64115867")
+		(property "Reference" "D10"
+			(at 316.611 203.5753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 311.912 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED 0603 Green 571nm 20mA"
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KGKT"
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS030005 "
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "319fba57-fc85-42c3-900b-48a7d8397794")
+		)
+		(pin "2"
+			(uuid "71554857-76f8-4493-b758-9dc28cbfe63d")
+		)
+		(instances
+			(project "PyBoardTester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -13939,6 +14386,114 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 323.85 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f8a7a8-cffd-4f20-9eb8-ba38a5547bd3")
+		(property "Reference" "R36"
+			(at 325.501 193.0978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "560"
+			(at 325.501 195.5221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 322.834 194.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0402560RFKED"
+			(at 332.613 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" "Yes"
+			(at 332.613 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020193"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2c4823-1c50-43ed-a61a-55bdc6ab74ec")
+		)
+		(pin "2"
+			(uuid "409a4bcb-5887-41a4-9847-7c4f637cc641")
+		)
+		(instances
+			(project "PyBoardTester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 222.25 190.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13956,7 +14511,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 223.901 191.7121 0)
 			(effects
 				(font
@@ -13992,7 +14547,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 231.013 193.548 0)
 			(effects
 				(font
@@ -14021,7 +14576,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 222.25 190.5 0)
 			(effects
 				(font
@@ -14046,6 +14601,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 323.85 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db10a034-a863-4df2-8d99-00ed3c9fded8")
+		(property "Reference" "#PWR071"
+			(at 323.85 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.977 216.4842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 323.85 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b8023b-88a9-43c5-9ce1-1ae32c230188")
+		)
+		(instances
+			(project "PyBoardTester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 276.86 201.93 90)
 		(unit 1)
@@ -14063,13 +14683,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D-PWR"
+		(property "Value" "Green LED"
 			(at 275.082 208.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -14090,7 +14711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 276.86 201.93 0)
 			(effects
 				(font
@@ -14099,7 +14720,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 276.86 201.93 0)
 			(effects
 				(font
@@ -14108,7 +14729,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 276.86 201.93 0)
 			(effects
 				(font
@@ -14347,7 +14968,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 267.081 194.2521 0)
 			(effects
 				(font
@@ -14383,7 +15004,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 274.193 196.088 0)
 			(effects
 				(font
@@ -14412,7 +15033,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 265.43 193.04 0)
 			(effects
 				(font
@@ -14454,13 +15075,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D-PWR"
+		(property "Value" "Green LED"
 			(at 295.402 208.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -14481,7 +15103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 297.18 201.93 0)
 			(effects
 				(font
@@ -14490,7 +15112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 297.18 201.93 0)
 			(effects
 				(font
@@ -14499,7 +15121,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 297.18 201.93 0)
 			(effects
 				(font
@@ -14542,7 +15164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "330R"
 			(at 241.681 191.7121 0)
 			(effects
 				(font
@@ -14578,7 +15200,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402560RFKED"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 248.793 193.548 0)
 			(effects
 				(font
@@ -14607,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "OEPSPN" "OEPS020191"
 			(at 240.03 190.5 0)
 			(effects
 				(font
@@ -14649,13 +15271,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C-PWR"
+		(property "Value" "Green LED"
 			(at 229.87 205.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -14676,7 +15299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603 Red 633nm 20mA"
+		(property "Description" "LED 0603 Green 571nm 20mA"
 			(at 231.14 199.39 0)
 			(effects
 				(font
@@ -14685,7 +15308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5990010007F"
+		(property "MPN" "LTST-C191KGKT"
 			(at 231.14 199.39 0)
 			(effects
 				(font
@@ -14694,7 +15317,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030044"
+		(property "OEPSPN" "OEPS030005 "
 			(at 231.14 199.39 0)
 			(effects
 				(font
@@ -14763,7 +15386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 39.37 87.63 0)
 			(effects
 				(font
