@@ -127,7 +127,7 @@
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
 			(hpglpendiameter 15.000000)
@@ -25593,7 +25593,7 @@
 			(net 5 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "14fd5f5b-a18c-4270-beb5-f9ad3c9a500e")
+			(uuid "f67f93a5-e66f-454f-a0bd-bb7d64babc91")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 90)
@@ -25605,7 +25605,7 @@
 			(net 5 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "14fd5f5b-a18c-4270-beb5-f9ad3c9a500e")
+			(uuid "a9ad6243-62b4-4bcc-b459-e00e8b1178fe")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 90)
@@ -25617,7 +25617,7 @@
 			(net 5 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "14fd5f5b-a18c-4270-beb5-f9ad3c9a500e")
+			(uuid "eabed274-36ab-4e5a-8228-2c2a300fa020")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
