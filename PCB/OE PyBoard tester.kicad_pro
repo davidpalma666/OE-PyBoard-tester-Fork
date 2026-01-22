@@ -79,22 +79,6 @@
         [
           "courtyards_overlap|166344298|54909800|e221bece-c9a5-4764-9878-3cd5d7e88bcb|e40a7538-9cce-4375-ab5c-3394e895ef8e",
           ""
-        ],
-        [
-          "hole_clearance|190420000|133900000|45d5628d-9400-40c3-a56f-6f9cf04197c4|034c88b3-c95f-426b-80da-5617222bdc8c",
-          ""
-        ],
-        [
-          "hole_clearance|190420000|133900000|45d5628d-9400-40c3-a56f-6f9cf04197c4|fdc71659-a064-468b-95c7-8cbef5c912b0",
-          ""
-        ],
-        [
-          "hole_clearance|190420000|140000000|f04d9b27-edb0-4506-b9ee-97cd0bc8511f|7961c5d2-1fa1-4a06-924b-ee3c15db9f56",
-          ""
-        ],
-        [
-          "hole_clearance|190420000|140000000|f04d9b27-edb0-4506-b9ee-97cd0bc8511f|f97faa77-d608-400e-b41d-af8fe115b177",
-          ""
         ]
       ],
       "meta": {
@@ -574,7 +558,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -622,7 +606,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -657,7 +641,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

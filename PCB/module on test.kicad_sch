@@ -6437,7 +6437,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "20cf2dda-00a2-4aa9-b571-2d094ff315a4")
 		(property "Reference" "TP12"
 			(at 230.378 33.02 90)
@@ -6762,7 +6762,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 151.13 109.1508 90)
 			(effects
 				(font
@@ -7631,7 +7631,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 193.929 105.3521 0)
 			(effects
 				(font
@@ -7903,7 +7903,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 161.29 109.1508 90)
 			(effects
 				(font
@@ -8199,7 +8199,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4df2b100-c587-4830-8ee9-87ac374fa041")
 		(property "Reference" "R36"
 			(at 193.929 148.6478 0)
@@ -8210,8 +8209,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
-			(at 193.929 151.0721 0)
+		(property "Value" "5k1 0.1%"
+			(at 198.882 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±0.1% 0.063W"
 			(at 195.58 149.86 0)
 			(effects
 				(font
@@ -8246,7 +8245,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 186.817 152.908 0)
 			(effects
 				(font
@@ -8265,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 195.58 149.86 0)
 			(effects
 				(font
@@ -8307,7 +8306,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 241.3 144.7108 90)
 			(effects
 				(font
@@ -8896,7 +8895,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b250f59-828b-4dc7-a96d-c18eae5391fe")
 		(property "Reference" "R29"
 			(at 209.931 113.0878 0)
@@ -8907,8 +8905,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
-			(at 209.931 115.5121 0)
+		(property "Value" "5k1 0.1%"
+			(at 205.74 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +8932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±0.1% 0.063W"
 			(at 208.28 114.3 0)
 			(effects
 				(font
@@ -8943,7 +8941,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 217.043 117.348 0)
 			(effects
 				(font
@@ -8962,7 +8960,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 208.28 114.3 0)
 			(effects
 				(font
@@ -9135,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 151.13 144.7108 90)
 			(effects
 				(font
@@ -9470,7 +9468,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 251.46 144.7108 90)
 			(effects
 				(font
@@ -9567,7 +9565,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 209.931 105.3521 0)
 			(effects
 				(font
@@ -9948,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 252.73 109.1508 90)
 			(effects
 				(font
@@ -10178,7 +10176,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 208.661 140.9121 0)
 			(effects
 				(font
@@ -12198,7 +12196,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 242.57 109.1508 90)
 			(effects
 				(font
@@ -12570,7 +12568,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c12765e0-850b-46ed-b6c6-101d7aa42ead")
 		(property "Reference" "R30"
 			(at 193.929 138.4878 0)
@@ -12581,7 +12578,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 193.929 140.9121 0)
 			(effects
 				(font
@@ -13279,7 +13276,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf4ecc6a-5172-4a67-a7a2-86b06b55ff91")
 		(property "Reference" "R28"
 			(at 193.929 113.0878 0)
@@ -13290,8 +13286,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
-			(at 193.929 115.5121 0)
+		(property "Value" "5k1 0.1%"
+			(at 198.628 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±0.1% 0.063W"
 			(at 195.58 114.3 0)
 			(effects
 				(font
@@ -13326,7 +13322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 186.817 117.348 0)
 			(effects
 				(font
@@ -13345,7 +13341,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 195.58 114.3 0)
 			(effects
 				(font
@@ -13612,7 +13608,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 161.29 144.7108 90)
 			(effects
 				(font
@@ -14145,7 +14141,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e56f97e0-5d16-49fc-a346-3acf290e90ed")
 		(property "Reference" "R37"
 			(at 208.661 148.6478 0)
@@ -14156,8 +14151,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
-			(at 208.661 151.0721 0)
+		(property "Value" "5k1 0.1%"
+			(at 203.708 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14183,7 +14178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±0.1% 0.063W"
 			(at 207.01 149.86 0)
 			(effects
 				(font
@@ -14192,7 +14187,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 215.773 152.908 0)
 			(effects
 				(font
@@ -14211,7 +14206,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 207.01 149.86 0)
 			(effects
 				(font

@@ -4760,10 +4760,6 @@
 		(uuid "430fca72-7823-4bc3-a73f-85c484cc21cb")
 	)
 	(no_connect
-		(at 260.35 120.65)
-		(uuid "4c3f77ca-0d00-4e21-bb4c-2b1e31254d91")
-	)
-	(no_connect
 		(at 100.33 149.86)
 		(uuid "52d5b380-5714-4c7f-b2e8-0084053a3d6b")
 	)
@@ -4802,10 +4798,6 @@
 	(no_connect
 		(at 58.42 68.58)
 		(uuid "984ae18e-400f-4e6f-ad13-9bfe2dec3fc3")
-	)
-	(no_connect
-		(at 260.35 123.19)
-		(uuid "99152d72-0dec-4cb5-916e-5fe04a7973b8")
 	)
 	(no_connect
 		(at 100.33 144.78)
@@ -4895,7 +4887,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 82.55) (xy 287.02 86.36)
+			(xy 306.07 82.55) (xy 306.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5015,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 92.71) (xy 351.79 93.98)
+			(xy 370.84 92.71) (xy 370.84 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5045,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 102.87) (xy 325.12 102.87)
+			(xy 340.36 102.87) (xy 344.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5105,7 +5097,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 71.12) (xy 294.64 71.12)
+			(xy 306.07 71.12) (xy 313.69 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5137,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 82.55) (xy 287.02 82.55)
+			(xy 254 82.55) (xy 306.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5175,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 100.33) (xy 294.64 100.33)
+			(xy 254 100.33) (xy 313.69 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5282,6 +5274,16 @@
 			(type default)
 		)
 		(uuid "41059e58-105d-4791-bd2c-abe3ae438101")
+	)
+	(wire
+		(pts
+			(xy 293.37 132.08) (xy 293.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b27ba1-24fb-4bde-90a6-a83c640463d4")
 	)
 	(wire
 		(pts
@@ -5515,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 123.19) (xy 254 123.19)
+			(xy 254 123.19) (xy 293.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5575,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 71.12) (xy 287.02 74.93)
+			(xy 306.07 71.12) (xy 306.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5725,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 120.65) (xy 260.35 120.65)
+			(xy 254 120.65) (xy 295.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +5887,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 82.55) (xy 289.56 80.01)
+			(xy 308.61 82.55) (xy 308.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5935,7 +5937,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 82.55) (xy 294.64 82.55)
+			(xy 308.61 82.55) (xy 313.69 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5985,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 92.71) (xy 341.63 92.71)
+			(xy 340.36 92.71) (xy 360.68 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6015,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 77.47) (xy 254 77.47)
+			(xy 254 77.47) (xy 308.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6035,7 +6037,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 74.93) (xy 254 74.93)
+			(xy 254 74.93) (xy 306.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6105,13 +6107,23 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 80.01) (xy 254 80.01)
+			(xy 254 80.01) (xy 308.61 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aaba0283-3d92-42be-9885-0edb42369113")
+	)
+	(wire
+		(pts
+			(xy 295.91 132.08) (xy 293.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3f7dff-795a-4ffe-acd0-962f7296f55b")
 	)
 	(wire
 		(pts
@@ -6185,6 +6197,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 132.08) (xy 306.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27fd399-a065-4181-8d62-6b6eb1a27c8d")
+	)
+	(wire
+		(pts
 			(xy 63.5 182.88) (xy 63.5 198.12)
 		)
 		(stroke
@@ -6225,7 +6247,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 105.41) (xy 294.64 105.41)
+			(xy 254 105.41) (xy 313.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6295,7 +6317,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 86.36) (xy 294.64 86.36)
+			(xy 306.07 86.36) (xy 313.69 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6337,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 74.93) (xy 294.64 74.93)
+			(xy 308.61 74.93) (xy 313.69 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6372,6 +6394,16 @@
 			(type default)
 		)
 		(uuid "c50b3f12-2eb0-46d9-b1e3-7c6c7009ca61")
+	)
+	(wire
+		(pts
+			(xy 306.07 120.65) (xy 306.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5632892-4864-4c11-9b76-a122a347f8ee")
 	)
 	(wire
 		(pts
@@ -6515,7 +6547,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 102.87) (xy 294.64 102.87)
+			(xy 254 102.87) (xy 313.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6775,7 +6807,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 74.93) (xy 289.56 77.47)
+			(xy 308.61 74.93) (xy 308.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6938,7 +6970,7 @@
 		(uuid "32288c81-f76d-422a-bfdc-0d7987deaae2")
 	)
 	(label "~{RST}#1 actuador"
-		(at 323.85 92.71 0)
+		(at 342.9 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7278,7 +7310,7 @@
 		(uuid "caeb4d90-b8cc-4b2a-a5eb-c19d36fb6773")
 	)
 	(label "~{RST}#2 feedback"
-		(at 325.12 102.87 0)
+		(at 344.17 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7553,6 +7585,93 @@
 			(project "PyBoardTester"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 300.99 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "055e9e1e-d65c-44e1-973a-736b146bd6ea")
+		(property "Reference" "OK1"
+			(at 300.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 300.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305B"
+			(at 300.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch"
+			(at 300.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL3305BF260QG"
+			(at 300.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS100061"
+			(at 300.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f34f63-b2e1-42d2-99ed-6762511ed492")
+		)
+		(pin "2"
+			(uuid "292dd236-beff-4449-b69c-ec6628025d77")
+		)
+		(instances
+			(project "OE PyBoard tester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "OK1")
 					(unit 1)
 				)
 			)
@@ -7976,7 +8095,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 351.79 93.98 0)
+		(at 370.84 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7985,7 +8104,7 @@
 		(dnp no)
 		(uuid "14337e42-e84e-46b1-a899-da561029bab6")
 		(property "Reference" "#PWR011"
-			(at 351.79 93.98 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +8113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 97.79 0)
+			(at 370.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +8121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 93.98 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 93.98 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 351.79 93.98 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,6 +9379,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 306.07 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44f8b31a-0b42-439d-87cd-da5f485696d0")
+		(property "Reference" "#PWR087"
+			(at 306.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 306.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f51973-85ca-4bad-bbb8-bba2e1016bb5")
+		)
+		(instances
+			(project "OE PyBoard tester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 95.25 215.9 0)
 		(unit 1)
@@ -9447,7 +9632,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 346.71 92.71 0)
+		(at 365.76 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9456,7 +9641,7 @@
 		(fields_autoplaced yes)
 		(uuid "48d0c1fe-064b-4c8a-b8e5-5e9b1378fd00")
 		(property "Reference" "SW1"
-			(at 346.71 87.63 0)
+			(at 365.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9649,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 346.71 87.63 0)
+			(at 365.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9658,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305B"
-			(at 346.71 87.63 0)
+			(at 365.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 87.63 0)
+			(at 365.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9676,7 @@
 			)
 		)
 		(property "Description" "Push button switch"
-			(at 346.71 92.71 0)
+			(at 365.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,7 +9685,7 @@
 			)
 		)
 		(property "MPN" "TL3305BF260QG"
-			(at 346.71 92.71 0)
+			(at 365.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +9694,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS100061"
-			(at 346.71 92.71 0)
+			(at 365.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11825,7 +12010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 64.77 116.8399 0)
 			(effects
 				(font
@@ -12601,6 +12786,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 306.07 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a71a8ebe-a1ac-4686-967e-9c2104b610b5")
+		(property "Reference" "#PWR086"
+			(at 306.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 306.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74cb171c-4174-4b27-93e1-050f8e5682a8")
+		)
+		(instances
+			(project "OE PyBoard tester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 74.93 38.1 90)
 		(mirror x)
@@ -13276,15 +13527,15 @@
 		(dnp no)
 		(uuid "ba5db200-1c4f-457b-a8f5-cba54ca0654b")
 		(property "Reference" "R1"
-			(at 69.342 41.148 90)
+			(at 67.056 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k1"
-			(at 74.168 41.148 90)
+		(property "Value" "5k1 0.1%"
+			(at 73.66 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13309,7 +13560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±0.1% 0.063W"
 			(at 71.12 43.18 0)
 			(effects
 				(font
@@ -13318,7 +13569,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 71.12 43.18 0)
 			(effects
 				(font
@@ -13327,7 +13578,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 71.12 43.18 0)
 			(effects
 				(font
@@ -13883,14 +14134,14 @@
 		(dnp no)
 		(uuid "cd30ad10-6208-462d-8843-abeaf1cc8708")
 		(property "Reference" "R2"
-			(at 68.834 48.26 90)
+			(at 67.056 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5k1 0.1%"
 			(at 73.66 48.006 90)
 			(effects
 				(font
@@ -13916,7 +14167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±0.1% 0.063W"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -13925,7 +14176,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -13934,7 +14185,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -14050,6 +14301,93 @@
 			(project "PyBoardTester"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 300.99 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cffcfec2-f30f-4794-b606-fbd6144b4b75")
+		(property "Reference" "NOK1"
+			(at 300.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 300.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305B"
+			(at 300.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch"
+			(at 300.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL3305BF260QG"
+			(at 300.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS100061"
+			(at 300.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad328f94-a2c0-4a90-badf-e08806cb3e62")
+		)
+		(pin "2"
+			(uuid "9f75a9f3-a3c2-46e4-a85a-e457eef8f93d")
+		)
+		(instances
+			(project "OE PyBoard tester"
+				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
+					(reference "NOK1")
 					(unit 1)
 				)
 			)
@@ -15422,7 +15760,7 @@
 		)
 	)
 	(sheet
-		(at 294.64 60.96)
+		(at 313.69 60.96)
 		(size 26.67 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15438,7 +15776,7 @@
 		)
 		(uuid "0c7eae38-77e6-4012-91cd-d3507b738187")
 		(property "Sheetname" "module on test"
-			(at 294.64 60.0746 0)
+			(at 313.69 60.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,7 +15785,7 @@
 			)
 		)
 		(property "Sheetfile" "module on test.kicad_sch"
-			(at 294.64 125.2184 0)
+			(at 313.69 125.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,7 +15794,7 @@
 			)
 		)
 		(pin "V+#2_chck" input
-			(at 294.64 82.55 180)
+			(at 313.69 82.55 180)
 			(uuid "b89a22e4-cf2c-4cc0-9e7b-c85af05c116c")
 			(effects
 				(font
@@ -15466,7 +15804,7 @@
 			)
 		)
 		(pin "+3V3#2_chck" input
-			(at 294.64 86.36 180)
+			(at 313.69 86.36 180)
 			(uuid "4cfed7ed-9bcf-436b-acc1-17960d2e6b98")
 			(effects
 				(font
@@ -15476,7 +15814,7 @@
 			)
 		)
 		(pin "V+#1_chck" input
-			(at 294.64 71.12 180)
+			(at 313.69 71.12 180)
 			(uuid "42929893-e480-4580-8513-0e34a6d83f0b")
 			(effects
 				(font
@@ -15486,7 +15824,7 @@
 			)
 		)
 		(pin "+3V3#1_chck" input
-			(at 294.64 74.93 180)
+			(at 313.69 74.93 180)
 			(uuid "603e1274-2bac-4a09-a05f-93da153696ae")
 			(effects
 				(font
@@ -15496,7 +15834,7 @@
 			)
 		)
 		(pin "Y8" input
-			(at 294.64 105.41 180)
+			(at 313.69 105.41 180)
 			(uuid "316cfd4d-623c-4afb-aaf9-b835d6d294f6")
 			(effects
 				(font
@@ -15506,7 +15844,7 @@
 			)
 		)
 		(pin "Y7" input
-			(at 294.64 102.87 180)
+			(at 313.69 102.87 180)
 			(uuid "0bd8f553-cc36-4369-9ec8-c42fd2ba8696")
 			(effects
 				(font
@@ -15516,7 +15854,7 @@
 			)
 		)
 		(pin "Y6" input
-			(at 294.64 100.33 180)
+			(at 313.69 100.33 180)
 			(uuid "1a33ffa9-c883-4ea3-b4bb-2ca5e62571d8")
 			(effects
 				(font
@@ -15526,7 +15864,7 @@
 			)
 		)
 		(pin "~{RST}#2 out" output
-			(at 321.31 102.87 0)
+			(at 340.36 102.87 0)
 			(uuid "7ed9730b-1d06-419b-82bd-4ef794058240")
 			(effects
 				(font
@@ -15536,7 +15874,7 @@
 			)
 		)
 		(pin "~{RST}#1 in" input
-			(at 321.31 92.71 0)
+			(at 340.36 92.71 0)
 			(uuid "47c00054-da02-4be8-bbfb-3801b600a484")
 			(effects
 				(font
